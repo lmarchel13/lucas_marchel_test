@@ -1,6 +1,6 @@
 # lucas_marchel_test
 
-#Ormuco challenge
+# Ormuco challenge
 
 ## TECHNICAL TEST
 
