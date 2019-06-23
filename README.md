@@ -32,3 +32,8 @@ At Ormuco, we want to optimize every bits of software we write. Your goal is to 
 
 As a hint, we are not looking for quantity, but rather quality, maintainability, scalability, testability and a code that you can be proud of. 
 When submitting your code add the necessary documentation to explain your overall design and missing functionalities.  Do it to the best of your knowledge.
+
+Clone this repository and start an server passing PORT, EXPIRATION_TIME and MAX_SIZE as environment variables as arguments.
+Run main.py passing the same PORT as environment variable to connected to the recently created server.
+
+I have created a small example that send 10 different data to the server and save it. These data will expire if it reach the expiration time supplied or if overcome the maximium size (memory capacity). Every time the data is inserted, it will show the entire database to check if everything is ok.
