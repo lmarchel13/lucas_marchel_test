@@ -55,7 +55,9 @@ class TCPServer:
             key = data['key']
             value = data['value']
             self.database.set(key, value)            
+            print('****************************')
             self.show()
+            print('****************************')
         except Err:
             print('Could not save data into cache')
 
