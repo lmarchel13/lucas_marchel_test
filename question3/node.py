@@ -11,9 +11,3 @@ class Node(object):
 
     def __str__(self):
         return "(Key: %s => Value: %s)" % (self.key, self.value)
-        
-    
-
-    
-
-        
