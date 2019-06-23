@@ -24,7 +24,7 @@ class LRUCache(object):
 
     def show(self):
         for key, value in self.hash.iteritems() :
-            print(self.hash[key])
+            print(self.hash[key])                
 
     def size(self):
         return self.length
@@ -43,7 +43,7 @@ class LRUCache(object):
         return node.value
         
 
-    def set(self, key, value):        
+    def set(self, key, value):  
         if key in self.hash:
             node = self.hash[key]
             node.value = value
@@ -95,17 +95,3 @@ class LRUCache(object):
 
         self.length -= 1
         return node
-
-if __name__ == "__main__":
-    memory = LRUCache(maxSize=50,expirationTimeInSeconds=10)    
-    
-    
-    
-
-    
-    
-
-
-    
-
-    
